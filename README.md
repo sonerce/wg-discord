@@ -1,26 +1,20 @@
-This repository provides a minimal WireGuard configuration that routes only Discord traffic through a secure VPN tunnel.
+# Discord Tüneli (WireGuard)
 
-🔒 Features:
+Bu repo, **yalnızca Discord trafiğini** güvenli bir VPN tüneli üzerinden yönlendirmek için hazırlanmış minimal bir WireGuard yapılandırması içerir.
 
-Routes only Discord domains and IP ranges through WireGuard
+---
 
-Keeps all other traffic on your regular internet connection
+## 🔒 Özellikler
+- Sadece Discord alan adlarını ve IP aralıklarını WireGuard üzerinden yönlendirir  
+- Diğer tüm internet trafiği normal bağlantı üzerinden devam eder  
+- Discord erişim engellerini veya ağ kısıtlamalarını aşmak için idealdir  
+- Hafif, hızlı ve kolay kuruluma sahiptir  
 
-Helps bypass Discord network blocks or restrictions
+---
 
-Lightweight, fast, and easy to use
+## ⚙️ Kullanım
+1. [WireGuard](https://www.wireguard.com/install/) uygulamasını cihazınıza kurun.  
+2. Bu depoda yer alan yapılandırma dosyasını açın.  
+3. `Endpoint` satırını kendi WireGuard sunucunuzun **IP adresi ve port** bilgisiyle değiştirin:  
 
-⚙️ Usage:
-
-Install and configure WireGuard
- on your device.
-
-Open the provided configuration file.
-
-Replace the Endpoint value with your own WireGuard server’s IP address and port (e.g. Endpoint = 123.45.67.89:51820).
-
-Import the config into your WireGuard client.
-
-Activate the tunnel — only Discord traffic will pass through it.
-
-🚀 Perfect for users who want a dedicated, isolated, and efficient VPN tunnel just for Discord without routing all internet traffic.
+#goodbyedpi #bypassdpi
