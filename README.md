@@ -27,4 +27,5 @@ Bu repo, **yalnızca Discord trafiğini** güvenli bir VPN tüneli üzerinden y�
 # Digital Ocean gibi firmalardan alacağınız 3-5 dolarlık vpslere wireguard server kurarak kendi wireguardınızı kurabilirsiniz.
 
 Wireguard server kurmak için [Rehber](https://github.com/sonerce/wireguard-install)
-#goodbyedpi #bypassdpi
+goodbyedpi bypassdpi
+vpnsiz discord, ip değiştirmeden dc girme
