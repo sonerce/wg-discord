@@ -15,7 +15,11 @@ Bu repo, **yalnızca Discord trafiğini** güvenli bir VPN tüneli üzerinden y�
 ## ⚙️ Kullanım
 1. [WireGuard](https://www.wireguard.com/install/) uygulamasını cihazınıza kurun.  
 2. Bu repoda yer alan yapılandırma dosyasını açın.  
-3. `Endpoint` satırını kendi WireGuard sunucunuzun **IP adresi ve port** bilgisiyle değiştirin:  
+3. `Endpoint` satırını kendi WireGuard sunucunuzun **IP adresi ve port** bilgisiyle değiştirin:
+4. Kaydettikten sonra wireguardın içine sürükle bırak yapabilirsiniz ya da sol alttaki artıya tıklayarak ekleyebilirsiniz. Ardından configi seçip "Activate" demeniz yeterli.
+5.
+6. <img width="741" height="579" alt="image" src="https://github.com/user-attachments/assets/602d6a87-24e5-42aa-9d51-a3a11ad7ae2c" />
+
 
 
 ## NOT 
